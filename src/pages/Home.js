@@ -46,7 +46,7 @@ const Home = () => {
                   />
                   <div className="small-banner-content position-absolute">
                     <h4>NEW ARRIVAL</h4>
-                    <h5>But IPad Air</h5>
+                    <h5>Buy IPad Air</h5>
                     <p>
                       From $999.00 <br /> or $41.62/mo.
                     </p>
@@ -60,7 +60,7 @@ const Home = () => {
                   />
                   <div className="small-banner-content position-absolute">
                     <h4>NEW ARRIVAL</h4>
-                    <h5>But IPad Air</h5>
+                    <h5>Buy IPad Air</h5>
                     <p>
                       From $999.00 <br /> or $41.62/mo.
                     </p>
@@ -74,7 +74,7 @@ const Home = () => {
                   />
                   <div className="small-banner-content position-absolute">
                     <h4>NEW ARRIVAL</h4>
-                    <h5>But IPad Air</h5>
+                    <h5>Buy IPad Air</h5>
                     <p>
                       From $999.00 <br /> or $41.62/mo.
                     </p>
@@ -85,6 +85,53 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      <section className="home-wrapper-2 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <div className="services d-flex align-align-items-center justify-content-between">
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service.png" alt="services" />
+                  <div>
+                    <h6>Free Shipping</h6>
+                    <p className="mb-0">From all orders over $5</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-02.png" alt="services" />
+                  <div>
+                    <h6>Daily Surprise Offers</h6>
+                    <p className="mb-0">Save Upto 25% Off</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-03.png" alt="services" />
+                  <div>
+                    <h6>Support 24/7</h6>
+                    <p className="mb-0">Shop with an expert</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-03.png" alt="services" />
+                  <div>
+                    <h6>Affordable Prices</h6>
+                    <p className="mb-0">Get Factory Default Prices</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center gap-15">
+                  <img src="images/service-04.png" alt="services" />
+                  <div>
+                    <h6>Secured Payments</h6>
+                    <p className="mb-0">100% Protected Payment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 };
