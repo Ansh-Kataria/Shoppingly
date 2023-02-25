@@ -268,7 +268,7 @@ const Home = () => {
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img
-                  src="images/famous-3.webp"
+                  src="images/famous-4.webp"
                   className="img-fluid"
                   alt="famous"
                 />
