@@ -63,7 +63,7 @@ const CompareProduct = () => {
                   className="position-absolute cross img-fluid"
                 />
                 <div className="product-card-image">
-                  <img src="images/watch.jpg" alt="watch" />
+                  <img src="images/watch-1.avif" alt="watch" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title">
