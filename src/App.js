@@ -13,6 +13,7 @@ import Wishlist from "./pages/Wishlist";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import ForgotPassword from "./pages/ForgotPassword";
+import SignUp from "./pages/SignUp";
 const App = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
             <Route path="forgot-password" element={<ForgotPassword />} />
+            <Route path="signup" element={<SignUp />} />
             <Route path="cart" element={<Cart />} />
           </Route>
         </Routes>
