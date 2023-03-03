@@ -24,38 +24,7 @@ const SignUp = () => {
                 </div>
 
                 <div>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    className="form-control"
-                  />
-                </div>
-
-                <div>
-                  <input
-                    type="tel"
-                    name="mobile"
-                    placeholder="Mobile Number"
-                    className="form-control"
-                  />
-                </div>
-
-                <div>
-                  <input
-                    type="password"
-                    name="password"
-                    placeholder="Password"
-                    className="form-control"
-                  />
-                </div>
-
-                <div>
-                  <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                    <Link to="/signup" className="button signup">
-                      SignUp
-                    </Link>
-                  </div>
+                  <div className="mt-3 d-flex justify-content-center gap-15 align-items-center"></div>
                 </div>
               </form>
             </div>
