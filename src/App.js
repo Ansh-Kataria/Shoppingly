@@ -15,6 +15,10 @@ import Login from "./pages/Login";
 import ForgotPassword from "./pages/ForgotPassword";
 import SignUp from "./pages/SignUp";
 import SingleBlog from "./pages/SingleBlog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import ResetPassword from "./pages/ResetPassword";
 const App = () => {
   return (
     <>
@@ -31,8 +35,14 @@ const App = () => {
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
             <Route path="forgot-password" element={<ForgotPassword />} />
+            <Route path="reset-password" element={<ResetPassword />} />
             <Route path="signup" element={<SignUp />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="refund-policy" element={<RefundPolicy />} />
+            <Route path="shipping-policy" element={<ShippingPolicy />} />
+            <Route path="terms" element={<Cart />} />
+
           </Route>
         </Routes>
       </BrowserRouter>
